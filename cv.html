@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link href="static/css/style.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="static/css/output.css" rel="stylesheet">
+    <title>Baraa Ali CV</title>
+</head>
+    <body class="flex flex-col bg-green-50 dark:bg-stone-900 text-green-950 dark:text-green-50 h-screen md:overflow-hidden">
+        <nav class="bg-green-950 grid grid-cols-6 gap-4 p-4 justify-items-end items-center">
+            <img src="./static/img/baraa.jpg" alt="Baraa" class="max-h-16 justify-self-start rounded-full">
+            <section class="flex gap-2 md:mr-10 col-start-2 sm:col-start-5 lg:col-start-6 col-end-7 items-center">
+                <a href="index.html" class="md:text-xl font-bold text-white p-5 tracking-widest border-2 border-white rounded-sm bg-green-900">HOME</a>
+                <a href="cv.html" class="md:text-xl font-bold text-green-400 p-5 tracking-wider border-2 border-green-400 rounded-sm bg-green-900">CV</a>
+            </section>
+        </nav>
+
+        <div class="relative flex w-full flex-grow-1 min-h-0">
+            <ul id="outline" class="hidden lg:basis-2/12 lg:flex lg:flex-col gap-10 pt-10 text-center font-bold border-r-2 border-green-400">
+                <li class="relative"><a class="lg:text-sm font-bold text-green-950 dark:text-white cv-header transition-all duration-300" href="#profile">[ Profile ]<span class="absolute top-1.5 -right-[0.420rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="lg:text-sm font-bold text-green-950 dark:text-white cv-header transition-all duration-300" href="#personal">[ Personal Information ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="lg:text-sm font-bold text-green-950 dark:text-white cv-header transition-all duration-300" href="#education">[ Education ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="lg:text-sm font-bold text-green-950 dark:text-white cv-header transition-all duration-300" href="#experience">[ Experience ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="lg:text-sm font-bold text-green-950 dark:text-white cv-header transition-all duration-300" href="#languages">[ Languages ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="lg:text-sm font-bold text-green-950 dark:text-white cv-header transition-all duration-300" href="#cert">[ Training and Certificates ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+            </ul>
+            <!-- <ul id="outline" class="hidden lg:basis-2/12 lg:flex lg:flex-col pt-16 lg:pt-40 text-center font-bold gap-6 border-r-2 border-green-400">
+                <li class="relative"><a class="text-green-950 dark:text-white cv-header transition-all duration-300" href="#profile">[ Profile ]<span class="absolute top-1.5 -right-[0.420rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="text-green-950 dark:text-white cv-header transition-all duration-300" href="#personal">[ Personal Information ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="text-green-950 dark:text-white cv-header transition-all duration-300" href="#education">[ Education ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="text-green-950 dark:text-white cv-header transition-all duration-300" href="#experience">[ Experience ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="text-green-950 dark:text-white cv-header transition-all duration-300" href="#languages">[ Languages ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+                <li class="relative"><a class="text-green-950 dark:text-white cv-header transition-all duration-300" href="#cert">[ Training and Certificates ]<span class="absolute top-1.5 -right-[0.395rem] z-20 h-3 w-3 rounded bg-green-900 border-2 border-green-900 dark:border-white cursor-pointer transition-all duration-300"></span></a></li>
+            </ul> -->
+            <section id="cv" class="md:basis-10/12 h-full w-full pb-16 overflow-y-scroll">
+                <article id="profile" class="lg:flex lg:py-10 lg:border-b lg:border-green-400 transition-all duration-500">
+                    <h1 class="text-xl lg:text-4xl font-bold pl-4 py-2 bg-green-200 dark:bg-green-800 lg:dark:bg-inherit lg:bg-inherit w-full lg:w-auto lg:basis-2/6">[ Profile ]</h1>
+                    <p class="lg:bg-inherit pl-4 py-2 leading-loose tracking-wider lg:text-2xl lg:basis-4/6">I have six years of experience working as an <u>Electrical Technician</u>, five of them working at King Fahd International Airport. I started learning <u>Web Development</u> right after the Covid lockdown as a side skill to help strengthen my portfolio but I ended up enjoying this work much more than the maintenance work I was doing so I decided to switch to Web Development as my main skill.</p>
+                </article>
+                <article id="personal" class="relative flex flex-wrap lg:flex-nowrap justify-center lg:justify-evenly lg:my-2 lg:w-full lg:border-b lg:border-green-400 transition-all duration-500">
+                    <h1 class="sticky top-0 left-0 z-10 text-xl lg:text-4xl font-bold pl-4 py-2 lg:py-6 bg-green-200 dark:bg-green-800 lg:dark:bg-inherit lg:bg-inherit h-fit w-full lg:w-auto lg:basis-3/6">[ Personal Information ]</h1>
+                    <div class="w-full">
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70 py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">Nationality</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">Saudi</p>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">Address</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">Makkah Province - Makkah</p>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">Phone</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">+966592497329</p>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">E-Mail</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">baraa.amjad1@gmail.com</p>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">Marital Status</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">Single</p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">DOB</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">06/11/1993</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- Education -->
+                <article id="education" class="relative flex flex-wrap lg:flex-nowrap justify-center lg:justify-evenly lg:my-2 lg:w-full lg:border-b lg:border-green-400 transition-all duration-500">
+                    <h1 class="sticky top-0 left-0 z-10 text-xl lg:text-4xl font-bold pl-4 py-2 lg:py-6 bg-green-200 dark:bg-green-800 lg:dark:bg-inherit lg:bg-inherit h-fit w-full lg:w-auto lg:basis-3/6">[ Education ]</h1>
+                    <div class="w-full">
+                        <div class="flex w-full border-b border-green-400/20">
+                            <div class="basis-3/6 lg:flex lg:flex-col py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Higher Institute for Paper and Industrial Technologies</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Jeddah</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Higher Diploma</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">April 2015 - July 2017</p>
+                                <a href="./Docs/Diploma.pdf" target="_blank" class="md:text-xl mt-5 font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit">Certificate</a>
+                            </div>
+                            <div class="basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>Major:</b> Electrical Engineering.</h3>
+                                <p><b>GPA:</b> 4.93</p>
+                            </div>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <div class="basis-3/6 lg:flex lg:flex-col py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Yanbu University College</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Yanbu</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Bachelors</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">November 2011 - March 2015</p>
+                                <a href="./Docs/YUC-Transcript.pdf" target="_blank" class="md:text-xl mt-5 font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit">Transcript</a>
+                            </div>
+                            <div class="basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>Major:</b> Computer Science and Engineering.</h3>
+                                <p><b>GPA:</b> 1.6</p>
+                                <p><b>Withdrawn</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Experience -->
+                <article id="experience" class="relative flex flex-wrap lg:flex-nowrap justify-center lg:justify-evenly lg:my-2 lg:w-full lg:border-b lg:border-green-400 transition-all duration-500">
+                    <h1 class="sticky top-0 left-0 z-10 text-xl lg:text-4xl font-bold pl-4 py-2 lg:py-6 bg-green-200 dark:bg-green-800 lg:dark:bg-inherit lg:bg-inherit h-fit w-full lg:w-auto lg:basis-3/6">[ Experience ]</h1>
+                    <div class="w-full">
+                        <div class="flex w-full border-b border-green-400/20">
+                            <div class="relative basis-3/6 py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Saudi Cable Company</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Jeddah</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Electrical Technician</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">April 2015 - August 2017</p>
+                                <a href="./Docs/Saudi Cable Company Experience Certificate.pdf" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">Certificate</a>
+                            </div>
+                            <div class="basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <p>Vocational training from April 2015 to April 2017 and then I worked for 5 months on a Reel Handling System. I resigned on August to join Al Amjaad.</p>
+                            </div>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <div class="relative basis-3/6 py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Al_Amjaad (Barn Cafe)</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Jeddah</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Industrial Electrician</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">April 2015 - August 2017</p>
+                                <a href="./Docs/Al Amjaad Experience Certificate.pdf" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">Certificate</a>
+
+                            </div>
+                            <div class="basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <p>I performed corrective maintenance for everything inside the 3 main plants which includes roasting machines, packaging machines, conveyors, AC units and lights.</p>
+                            </div>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <div class="relative basis-3/6 py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Thyssenkrupp</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">September 2018 - August 2020</p>
+                                <p class="lg:text-2xl">Arabian Services Group</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">September 2020 - December 2023</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Dammam</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">King Fahd International Airport</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Maintenance Technician/Planner</p>
+                                <a href="./Docs/Thyssenkrupp Experience Certificate.pdf" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">Certificate</a>
+                            </div>
+                            <div class="basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <p>I did the same in under two different service providers. From Sep 2018 to Dec 2021 my main tasks were performing corrective and preventive maintenance for Passenger Boarding Bridges "PBB" and Advanced Visual Docking Systems "AVDGS". Starting from 2022 I stopped performing preventive maintenance and started planning maintenace tasks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Languages -->
+                <article id="languages" class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-evenly lg:my-2 lg:w-full lg:border-b lg:border-green-400 transition-all duration-500">
+                    <h1 class="sticky top-0 left-0 z-10 text-xl lg:text-4xl font-bold pl-4 py-2 lg:py-6 bg-green-200 dark:bg-green-800 lg:dark:bg-inherit lg:bg-inherit h-fit w-full lg:w-auto lg:basis-3/6">[ Languages ]</h1>
+                    <div class="w-full">
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">Arabic</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">Native</p>
+                        </div>
+                        <div class="flex w-full border-b border-green-400/20">
+                            <p class="basis-2/6 lg:text-2xl text-green-950/70 dark:text-green-50/70  py-2 lg:py-6 pl-4 font-semibold lg:border-0 border-r border-green-400">English</p>
+                            <p class="basis-4/6 lg:text-2xl py-2 lg:py-6 pl-4">Advanced</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- Certifictions -->
+                <article id="cert" class="relative flex flex-wrap lg:flex-nowrap justify-center lg:justify-evenly lg:my-2 lg:w-full lg:border-b lg:border-green-400 transition-all duration-500">
+                    <h1 class="sticky top-0 left-0 z-10 text-xl lg:text-4xl font-bold pl-4 py-2 lg:py-6 bg-green-200 dark:bg-green-800 lg:dark:bg-inherit lg:bg-inherit h-fit w-full lg:w-auto lg:basis-3/6">[ Training and Certificates ]</h1>
+                    <div class="w-full">
+                        <div class="flex w-full lg:pb-10 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">International English Language Testing System (IELTS)</p>
+                                <p class="text-green-950/70 dark:text-green-50/50 text-sm">IDP IELTS</p>
+                                <p class="text-green-950/70 dark:text-green-50/50 text-sm">June 2023</p>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>Overall Band Score:</b> 7.0</h3>
+                                <h3><b>ID:</b> 23SA000773ALIB036A</h3>
+                                <p><a href="./Docs/IELTS-Test Report Form.pdf" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a></p>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">UI / UX Design Specialization</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">California Institute of the Arts</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Feb 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Research</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Website Wireframe</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Strategy</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Interface Design (UI Design)</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Experience (UX)</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> 8JYMAYP4DHBG</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/specialization/8JYMAYP4DHBG" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Visual Elements of User Interface Design</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">California Institute of the Arts</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Jan 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Interface Design (UI Design)</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Experience (UX)</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> P6PD42NE6RET</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/P6PD42NE6RET" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">UX Design Fundamentals</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">California Institute of the Arts</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Jan 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Web Design</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Interface Design (UI Design)</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Experience (UX)</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> XYJ7XK3QUR3E</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/XYJ7XK3QUR3E" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Web Design: Strategy and Information Architecture</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">California Institute of the Arts</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Feb 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Research</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Website Wireframe</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Sitemapping</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Interface Design (UI Design)</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Experience (UX)</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> K4ZMWX97BCZM</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/K4ZMWX97BCZM" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Web Design: Wireframes to Prototypes</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">California Institute of the Arts</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Feb 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Website Wireframe</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Web Design</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">HTML</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">CSS</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Interface Design (UI Design)</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">User Experience (UX)</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Prototyping</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> L62AWKPKRBAP</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/L62AWKPKRBAP" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Introduction to HTML5</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Coursera</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Nov 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">HTML</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> AXG544VSHJLQ</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/AXG544VSHJLQ" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Introduction to CSS3</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">University of Michigan</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Dec 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">HTML</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">CSS</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> Y6XGDMF8QUYF</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/Y6XGDMF8QUYF" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Interactivity with JavaScript</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">University of Michigan</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Dec 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">HTML</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">CSS</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> 57K7LBQPRL4A</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/57K7LBQPRL4A" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Advanced Styling with Responsive Design</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">University of Michigan</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Dec 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Responsive Design</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">HTML</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">CSS</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> 7DAHGDQB5ASR</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/7DAHGDQB5ASR" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Web Design for Everybody Capstone</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">University of Michigan</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Feb 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Web Design</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">HTML</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">CSS</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> 6ZN99YBP5VTF</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/records/6ZN99YBP5VTF" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider  border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Python for Data Science, AI & Development</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Coursera</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Nov 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Data Science</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Python</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">NumPy</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Pandas</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Artificial Intelligence (AI)</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> TVW4V9X79TCS</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/TVW4V9X79TCS" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider  border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Introduction to Bash Shell Scripting</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Coursera</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Oct 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Bash</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> SR2SRESLHLTW</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/SR2SRESLHLTW" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider  border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Beginners Guide to YAML Syntax</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Coursera</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Oct 2023</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">YAML</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> DCYAYB8LKCPH</h3>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/DCYAYB8LKCPH" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider  border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Technical Support</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Technical and Vocational Training Corporation</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">July 2017</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">Technical Support</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1">
+                                <h3><b>ID:</b> 17/107/345</h3>
+                                <a href="./Docs/Technical Support Certificate.pdf" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider  border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                        <div class="flex w-full lg:py-5 border-b border-green-400/20">
+                            <div class="basis-3/6 py-2 lg:py-6 px-2 font-semibold lg:border-0 border-r border-green-400">
+                                <p class="lg:text-2xl">Mobile Elevating Work Platforms (MEWPs) types (3a-3b) Operation</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">International Powered Access Federation (IPAF)</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Issued:Feb 2019</p>
+                                <p class="text-green-950/70 dark:text-green-50/50  text-sm">Expired:Feb 2024</p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">3a</span>
+                                    <span class="text-green-950 dark:text-green-600 text-xs max-w-32 overflow-hidden text-ellipsis text-nowrap font-semibold border-2 border-green-950 dark:border-green-600 rounded-3xl py-1 px-3">3b</span>
+                                </div>
+                            </div>
+                            <div class="relative basis-3/6 lg:text-2xl py-2 lg:py-6 pl-1 lg:border-0 border-green-400">
+                                <h3><b>ID:</b> OP/1653714</h3>
+                                <a href="./Docs/PAL-IPAF Certificate.pdf" target="_blank" class="md:text-xl font-bold text-white px-3 py-1 tracking-wider  border border-white rounded-sm bg-green-900 w-fit absolute bottom-5">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section></section>
+        </div>
+        <script src="./static/js/cv.js"></script>
+        <script src="./static/node_modules/flowbite/dist/flowbite.min.js"></script>
+    </body>
+</html>
